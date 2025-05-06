@@ -15,7 +15,7 @@ fi
 
 #The counting of the volume
 volume=$(awk -v pi=$pi -v r=$radius -v h=$height 'BEGIN {print (1 / 3) * pi * (r^2) * h}')
-echo -e "The volume of the cupe:"$volume
+echo -e "The volume of the cone:"$volume
 
 #Exit
 exit
